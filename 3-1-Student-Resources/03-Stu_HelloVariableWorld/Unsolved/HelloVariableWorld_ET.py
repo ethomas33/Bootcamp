@@ -20,13 +20,13 @@ satisfied = True
 print("Hello " + str(names))
 
 # Print out what country the user entered
-print({country})
+print(f"the country is {country}")
 
 # Print out the user's age
-print({age})
+print(f"age is {age}")
 
 # With an f-string, print out the daily wage that was calculated
-print(f"{daily_wage}")
+print(f"the daily wage is {daily_wage}")
 
 # With an f-string, print out whether the users were satisfied
-print(f"{satisfied}")
+print(f"they are satisfied: {satisfied}")
