@@ -13,8 +13,8 @@
 pets = {
         "name": "MaryJane",
         "age": 6,
-        "hobbies": {"sleeping", "mud puddles", "eating"},
-        "wakeup" : {7, 8, 10},
+        "hobbies": ["sleeping", "mud puddles", "eating"],
+        "wakeup" : [7, 8, 10],
         }
 
-print(f'Pets name: {pets["name"]}\n Number of hobbies {len(pets["hobbies"])}\n Favorite hobby: {pets["hobbies"]}' )
+print(f'Pets name: {pets["name"]}\n Number of hobbies {len(pets["hobbies"])}\n Favorite hobby: {pets["hobbies"][0]}' )
